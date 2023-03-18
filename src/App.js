@@ -4,6 +4,7 @@ import {NavBar, Navbar} from './components/NavBar';
 import {Hero} from './components/Hero';
 import {WebSkills} from './components/WebSkills';
 import {WebProjects} from './components/WebProjects';
+import {AnimationSkills} from './components/AnimationSkills';
 import {Footer} from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +16,7 @@ function App() {
      <Hero/>
      <WebSkills/>
      <WebProjects />
+     <AnimationSkills />
      <Footer />
     </div>
   );

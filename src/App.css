@@ -41,7 +41,7 @@ body {
   position: relative;
   background-color: #5865F2 !important;
   color: #fff !important;
-  font-family: 'PT Sans', sans-serif !important;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 h1, 
@@ -55,6 +55,7 @@ padding: 0;
 line-height: normal;
 }
 
+/* //////////////////////NAVBAR///////////// */
 nav.navbar {
   position: fixed;
   padding: 10px 0;
@@ -71,7 +72,7 @@ nav.navbar.scrolled {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: #ffff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
@@ -83,10 +84,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 2;
 }
 
-/*span.navbar-text {
+span.navbar-text {
   display: flex;
   align-items: center;
-}*/
+}
 
 .social-media-icons {
   display: inline-block;
@@ -271,7 +272,7 @@ letter-spacing: .8px;
 
 
 .skills-bx {
-background: black;
+background:#191A1C;
 text-align: center;
 border-radius: 64px;
 padding: 60px 50px;
