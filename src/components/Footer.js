@@ -2,7 +2,7 @@ import { Container, Col, Row} from "react-bootstrap"
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <Container>
                 <Col sm={6} className='text-center text-sm-end'>
                 {/* <div className="social-icons">

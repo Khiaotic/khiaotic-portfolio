@@ -3,7 +3,7 @@ import './App.css';
 import {NavBar, Navbar} from './components/NavBar';
 import {Hero} from './components/Hero';
 import {WebSkills} from './components/WebSkills';
-import {WebProjects} from './components/WebProjects';
+import {Projects} from './components/WebProjects';
 import {AnimationSkills} from './components/AnimationSkills';
 import {Footer} from './components/Footer';
 
@@ -15,8 +15,8 @@ function App() {
      <NavBar/>
      <Hero/>
      <WebSkills/>
-     <WebProjects />
-     {/* <AnimationSkills /> */}
+     <Projects />
+     <AnimationSkills />
      <Footer />
     </div>
   );

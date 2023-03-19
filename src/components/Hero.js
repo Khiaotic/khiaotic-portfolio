@@ -16,7 +16,7 @@ export const Hero = () => {
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        {/* <img src=() alt="placeholder"/> */}
+                        <img src={"./images/dummy_360x200_000000_defc83.svg"} alt="placeholder"/>
                     </Col>
                 </Row>
             </Container>
