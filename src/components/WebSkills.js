@@ -42,45 +42,46 @@ export const WebSkills = () =>{
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>
                 <div>
                     <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
-                </div>
                 <h5>HTML</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>JavaScript</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>CSS</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>State</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>MySql</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>MongoDB</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>API</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Node.JS</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Express.JS</h5>
+                </div>
             </Carousel>
         </div>
         </Col>
     </Row>
 </Container>
+{/* <img className="background-image-left" src={'http://via.placeholder.com/260x360'}></img> */}
     </section>
 )
 }

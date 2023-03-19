@@ -1,7 +1,7 @@
 import { Container, Nav, Row, Col, Badge } from "react-bootstrap"
 
 export const WebProjects = () => {
-    const projects = [
+    const projects4Web = [
        {
         title: 'OnlyDevs',
         description: '',
@@ -47,6 +47,16 @@ export const WebProjects = () => {
             <Col>
             <h2>WebDev Projects</h2>
             <p>description</p>
+            <Nav variant="pills" defaultActiveKey="/home"></Nav>
+            <Nav.Item>
+                <Nav.Link eventKey="tab1"></Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="tab1"></Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link eventKey="tab1"></Nav.Link>
+            </Nav.Item>
             </Col>
 
         </Row>

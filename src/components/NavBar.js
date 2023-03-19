@@ -45,10 +45,10 @@ export const NavBar = () => {
             <div className="social-media-icons">
                 <a href="#"><img src={''} alt="LinkedIn"  /></a>
                 <a href="#"><img src={''} alt="Github"  /></a>
-                <a href="#"><img src={''} alt="Instagram"  /></a>
+                <a href="#"><img src={''} alt="UpWork"  /></a>
                 <a href="#"><img src={''} alt="Youtube"  /></a>
             </div>
-            <button className="" onClick={() => console.log('connected link')}><span>Khi-Laborate</span></button>
+            <button className="" onClick={() => console.log('connected link')}><span>Let's Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
