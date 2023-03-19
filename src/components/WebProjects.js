@@ -1,12 +1,13 @@
 import { Container, Nav, Row, Col, Badge, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import Untitled_Artwork from "../images/Untitled_Artwork.jpg"
 
 export const WebProjects = () => {
     const projects = [
        {
         title: 'OnlyDevs',
         description: '',
-        imgUrl: '../../assets/images/Untitled_Artwork.jpg',
+        imgUrl: Untitled_Artwork.jpg,
         link: 'https://onlydevs.herokuapp.com/'
        },
        {
@@ -48,7 +49,7 @@ export const WebProjects = () => {
             <Col>
             <h2>WebDev Projects</h2>
             <p>description</p>
-            <Tab.Container id="projects4Web-tabs" defaultActiveKey="first">
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
 
             <Nav variant="pills" defaultActiveKey="/home"></Nav>
             <Nav.Item>
