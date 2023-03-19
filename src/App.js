@@ -16,7 +16,7 @@ function App() {
      <Hero/>
      <WebSkills/>
      <WebProjects />
-     <AnimationSkills />
+     {/* <AnimationSkills /> */}
      <Footer />
     </div>
   );

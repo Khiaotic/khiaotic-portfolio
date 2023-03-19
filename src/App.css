@@ -318,11 +318,68 @@ color: #fff;
   z-index:-4;
 } */
 
+/* //////////////PROJECTS///////////// */
+
+.project h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
 
 
+.project p {
+  margin: 14px auto 30px auto;
+color: '';
+font-size: 18px;
+text-align: center;
+letter-spacing: .08px;
+width: 56%;
+}
 
+.project .nav.nav-pills {
+  width: 72%;
+  margin: 0  auto;
+  background-color: #27CD77;
+  border-radius: 50px;
+  overflow: hidden;
+}
 
+.project .nav.nav-pills .nav-item {
+  width: 33.33333%;
+}
 
+.project .nav.nav-pills .nav-link {
+  color: #FFF4B2;
+  background-color: transparent;
+  padding: 17px 0;
+  font-size: 17px;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  z-index: 0;
+  transition: .5s ease-in-out;
+}
+
+.project .nav.nav-pills .nav-link::before {
+  content: "";
+  width: 0;
+  height: 100%;
+  background: #87DBFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: .5s  ease-in-out;
+}
+
+.project .nav.nav-pills .nav-link.active {
+  border: 1px solid #E53894
+}
+
+.nav-link #projects4Web-tabs-tab-first {
+  border-top: 1px solid red;
+  border-radius: 55px 0px 0px 55px;
+}
 
 
 
