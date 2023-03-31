@@ -9,38 +9,39 @@ export const Projects = () => {
   const projects = [
     {
       title: "OnlyDevs",
-      description: "blah blah blah blah blah",
-      imgUrl: OnlyDev,
+      description: "an app for Devs  looking to collaborate!",
+      imgUrl: OnlyDevs,
       link: "https://onlydevs.herokuapp.com/",
     },
     {
-      title: "Ranker",
-      description: "",
+      title: "E-Commerce BackEnd",
+      description: "back end for an e-commerce site ",
       imgUrl: OnlyDevs,
-      link: "https://vrgranker.herokuapp.com/",
+      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
+      ,
     },
     {
       title: "Employee Profile Generator",
-      description: "",
+      description: "a team job title/profile generator capable of generating new employees",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
     },
     {
       title: "Password Generator",
-      description: "",
-      imgUrl: OnlyDev,
+      description: "app that generates a random passwords based on criteria selected",
+      imgUrl: OnlyDevs,
     },
     {
       title: "Social Media Backend",
-      description: "",
+      description: "a social media platform back-end",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/KhiaoticSocialMedia",
     },
     {
-      title: "E-Commerce BackEnd",
-      description: "",
-      imgUrl: OnlyDev,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
+      title: "Ranker",
+      description: "an app that builds community among gamers and ability to rank VR games",
+      imgUrl: OnlyDevs,
+      link: "https://vrgranker.herokuapp.com/",
     },
   ];
 

@@ -9,7 +9,8 @@ export const Hero = () => {
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"></span>
-                        <h1>{"Hej Hej! I'm KHIAOTIC"}</h1>
+                        <h1>{"Hej! Hej! I'm "}</h1>
+                        <h1>{"KHIAOTIC"}</h1>
                         <span className="wrap">Animator and Web Developer</span>
                         <p>about me about me about me about me</p>
                         <button><ArrowRightCircle/></button>

@@ -42,40 +42,40 @@ export const AnimationSkills = () =>{
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>
                 <div>
                     <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
-                </div>
                 <h5>Photoshop</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Illustrator</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Blender</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Animate</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>After Effects</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Procreate</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Nomad</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>InDesign</h5>
-                <div>
-                    <img src={''} alt="Image"></img>
                 </div>
+                <div>
+                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
                 <h5>Premiere Pro</h5>
+                </div>
             </Carousel>
         </div>
         </Col>
