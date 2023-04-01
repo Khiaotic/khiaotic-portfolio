@@ -5,6 +5,7 @@ import {Hero} from './components/Hero';
 import {WebSkills} from './components/WebSkills';
 import {Projects} from './components/WebProjects';
 import {AnimationSkills} from './components/AnimationSkills';
+import {Connect} from './components/Connect';
 import {Footer} from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,6 +18,7 @@ function App() {
      <WebSkills/>
      <Projects />
      <AnimationSkills />
+     <Connect/>
      <Footer />
     </div>
   );

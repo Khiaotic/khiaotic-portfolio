@@ -330,7 +330,7 @@ color: #fff;
 /* //////////////PROJECTS///////////// */
 .section1 {
   
-  background-color: ;
+  /* background-color: ; */
   border-radius: 64px;
   padding: 80px 0px;
   margin-bottom: 100px;
@@ -347,6 +347,7 @@ color: #fff;
 color: '';
 font-size: 18px;
 text-align: center;
+
 letter-spacing: 0.8px;
 width: 56%;
 }
@@ -394,6 +395,7 @@ width: 56%;
 }
 
 .project .nav.nav-pills .nav-link.active {
+  
   border: 2px solid #27CD77
 }
 
@@ -420,8 +422,9 @@ width: 56%;
   
   position: relative;
   border-radius: 30px;
-  background:#ff0000;
+  /* background:#ff0000; */
   overflow: hidden;
+  width: 80%;
   margin-bottom: 24px;
 }
 
@@ -434,10 +437,12 @@ width: 56%;
   width: 100%;
   height:  0%;
   transition: .4s ease-in-out;
+ 
 }
 
 .project-imgBox:hover::before {
   height: 100%;
+
 }
 
 .project-text {
@@ -453,7 +458,7 @@ width: 56%;
   transition: .5s ease-in-out;
 }
 
-.project-imgbox:hover .project-text {
+.project-imgBox:hover .project-text {
   top:50%;
   opacity: 1;
 }
@@ -487,6 +492,8 @@ width: 56%;
   pointer-events: none;
  
 }
+
+/* ////////////MEDIA/////////////// */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -9,26 +9,26 @@ export const Projects = () => {
   const projects = [
     {
       title: "OnlyDevs",
-      description: "an app for Devs  looking to collaborate!",
+      description: " Devs  looking to collaborate!",
       imgUrl: OnlyDevs,
       link: "https://onlydevs.herokuapp.com/",
     },
     {
       title: "E-Commerce BackEnd",
-      description: "back end for an e-commerce site ",
+      description: "back end e-commerce site ",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
       ,
     },
     {
       title: "Employee Profile Generator",
-      description: "a team job title/profile generator capable of generating new employees",
+      description: "a team job title/profile generator ",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
     },
     {
       title: "Password Generator",
-      description: "app that generates a random passwords based on criteria selected",
+      description: "generates a random passwords ",
       imgUrl: OnlyDevs,
     },
     {
@@ -39,7 +39,7 @@ export const Projects = () => {
     },
     {
       title: "Ranker",
-      description: "an app that builds community among gamers and ability to rank VR games",
+      description: " community rank VR games",
       imgUrl: OnlyDevs,
       link: "https://vrgranker.herokuapp.com/",
     },
@@ -60,7 +60,7 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
-                      className="nav-pills mb-4 justify-content-center align-items-center"
+                      className="nav-pills mb-5 justify-content-center align-items-center"
                      id="pills-tab"
                     >
 
