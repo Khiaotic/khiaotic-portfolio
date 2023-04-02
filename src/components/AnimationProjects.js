@@ -20,29 +20,29 @@ export const AnimateProjects = () => {
       imgUrl: OnlyDevs,
       link: "https://youtu.be/NkAEZcminMk",
     },
-    {
-      title: "",
-      description: " ",
-      imgUrl: OnlyDevs,
-      link: "",
-    },
-    {
-      title: "",
-      description: " ",
-      imgUrl: OnlyDevs,
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: OnlyDevs,
-      link: "",
-    },
-    {
-      title: "",
-      description: "",
-      imgUrl: OnlyDevs,
-      link: "",
-    },
+    // {
+    //   title: "",
+    //   description: " ",
+    //   imgUrl: OnlyDevs,
+    //   link: "",
+    // },
+    // {
+    //   title: "",
+    //   description: " ",
+    //   imgUrl: OnlyDevs,
+    // },
+    // {
+    //   title: "",
+    //   description: "",
+    //   imgUrl: OnlyDevs,
+    //   link: "",
+    // },
+    // {
+    //   title: "",
+    //   description: "",
+    //   imgUrl: OnlyDevs,
+    //   link: "",
+    // },
   ];
   ////////////////////////////////////////////////
   const projectsBusiness = [
@@ -52,36 +52,10 @@ export const AnimateProjects = () => {
       imgUrl: OnlyDevs,
       link: "https://youtu.be/Uob4XmGYYoM",
     },
-    {
-      title: "",
-      description: " ",
-      imgUrl: OnlyDevs,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
-      ,
-    },
-    {
-      title: "Employee Profile Generator",
-      description: "a team job title/profile generator ",
-      imgUrl: OnlyDevs,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
-    },
-    {
-      title: "Password Generator",
-      description: "generates a random passwords ",
-      imgUrl: OnlyDevs,
-    },
-    {
-      title: "Social Media Backend",
-      description: "a social media platform back-end",
-      imgUrl: OnlyDevs,
-      link: "https://github.com/Khiaotic/KhiaoticSocialMedia",
-    },
-    {
-      title: "Ranker",
-      description: " community rank VR games",
-      imgUrl: OnlyDevs,
-      link: "https://vrgranker.herokuapp.com/",
-    },
+    
+ 
+   
+   
   ];
 
   return (
@@ -94,7 +68,7 @@ export const AnimateProjects = () => {
                   
                 > 
                   <h2>Animation Projects</h2>
-                  <p>multiple projects showing off my animation skills including illustration, graphic design, and more</p>
+                  <p>multiple projects showing off my animation skills including illustration, 3D modeling, graphic design, and more</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -134,10 +108,10 @@ export const AnimateProjects = () => {
                           })
                           }
                         </Row>
-                        <p> whatever and ever</p>
+                        
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p> whatever and ever</p>
+                        <p> nothing to see here</p>
                       </Tab.Pane>
                     </TabContent>
                   </Tab.Container>

@@ -55,7 +55,7 @@ export const Projects = () => {
                   
                 > 
                   <h2>Dev Projects</h2>
-                  <p>description</p>
+                  {/* <p>description</p> */}
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
