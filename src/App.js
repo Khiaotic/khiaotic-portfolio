@@ -5,6 +5,7 @@ import {Hero} from './components/Hero';
 import {WebSkills} from './components/WebSkills';
 import {Projects} from './components/WebProjects';
 import {AnimationSkills} from './components/AnimationSkills';
+import {AnimateProjects} from './components/AnimationProjects';
 import {Connect} from './components/Connect';
 import {Footer} from './components/Footer';
 
@@ -18,6 +19,7 @@ function App() {
      <WebSkills/>
      <Projects />
      <AnimationSkills />
+     <AnimateProjects/>
      <Connect/>
      <Footer />
     </div>

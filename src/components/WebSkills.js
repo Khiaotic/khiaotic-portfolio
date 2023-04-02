@@ -36,7 +36,7 @@ export const WebSkills = () =>{
         <Col>
         <div className='skills-bx'>
             <h2>
-                WebDev Skills
+                Developer Skills
             </h2>
             <p>description</p>
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>

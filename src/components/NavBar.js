@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
+import { NavDropdown } from 'react-bootstrap';
 
 
 export const NavBar = () => {
@@ -36,8 +37,19 @@ export const NavBar = () => {
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('home')}>Home</Nav.Link>
             <Nav.Link href="#about" className={activeLink === 'about' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('about')}>About</Nav.Link>    
-            <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('skills')}>Skills</Nav.Link>    
-            <Nav.Link href="#portfolio" className={activeLink === 'portfolio' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('portfolio')}>Portfolio(s)</Nav.Link>    
+            
+            <NavDropdown id="nav-dropdown" title="Skills">
+            {/* <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('skills')}>Dev  Skills</Nav.Link>     */}
+            <NavDropdown.Item href="#skills" className={activeLink === 'skills' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('skills')}>Developer Skills</NavDropdown.Item>    
+            <NavDropdown.Item href="#skillsAnimate" className={activeLink === 'skillsAnimate' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('skillsAnimate')}>Animator Skills</NavDropdown.Item>    
+            </NavDropdown>
+            <NavDropdown id="nav-dropdown" title="Portfolio(s)">
+            {/* <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('skills')}>Dev  Skills</Nav.Link>     */}
+            <NavDropdown.Item href="#projects" className={activeLink === 'portfolio' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('portfolio')}>Developer</NavDropdown.Item>    
+            <NavDropdown.Item href="#projectsAnimate" className={activeLink === 'portfolioAnimate' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('portfolioAnimate')}>Animator</NavDropdown.Item>    
+            </NavDropdown>
+
+            {/* <Nav.Link href="#portfolio" className={activeLink === 'portfolio' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('portfolio')}>Portfolio(s)</Nav.Link>     */}
             <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('contact')}>Contact</Nav.Link>    
             <Nav.Link href="#résumé" className={activeLink === 'résumé' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('résumé')}>Résumé</Nav.Link>    
           </Nav>

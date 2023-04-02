@@ -5,17 +5,56 @@ import { ProjectCard } from "./ProjectCard";
 import OnlyDevs from "../images/dummy_360x200_000000_defc83.svg";
 import OnlyDev from "../images/dummy_360x260_000000_defc83.svg";
 
-export const Projects = () => {
-  const projects = [
+export const AnimateProjects = () => {
+  const projectsFeatured = [
     {
-      title: "OnlyDevs",
-      description: " Devs  looking to collaborate!",
+      title: "30 Days of Animation",
+      description: " ",
       imgUrl: OnlyDevs,
-      link: "https://onlydevs.herokuapp.com/",
+      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
+      ,
     },
     {
-      title: "E-Commerce BackEnd",
-      description: "back end e-commerce site ",
+      title: "Graphic Demo Real",
+      description: "",
+      imgUrl: OnlyDevs,
+      link: "https://youtu.be/NkAEZcminMk",
+    },
+    {
+      title: "",
+      description: " ",
+      imgUrl: OnlyDevs,
+      link: "",
+    },
+    {
+      title: "",
+      description: " ",
+      imgUrl: OnlyDevs,
+    },
+    {
+      title: "",
+      description: "",
+      imgUrl: OnlyDevs,
+      link: "",
+    },
+    {
+      title: "",
+      description: "",
+      imgUrl: OnlyDevs,
+      link: "",
+    },
+  ];
+  ////////////////////////////////////////////////
+  const projectsBusiness = [
+    {
+      title: "Suburbs",
+      description: "Animated music video for The Last Skeptik",
+      imgUrl: OnlyDevs,
+      link: "https://youtu.be/Uob4XmGYYoM",
+    },
+    {
+      title: "",
+      description: " ",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
       ,
@@ -46,7 +85,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="projects" id="projects">
+    <section className="projectsAnimate" id="projectsAnimate">
       <Container>
         <Row>
           <Col className="section1" size={12}>
@@ -54,8 +93,8 @@ export const Projects = () => {
                 <div className="pjDiv"
                   
                 > 
-                  <h2>WebDev Projects</h2>
-                  <p>description</p>
+                  <h2>Animation Projects</h2>
+                  <p>multiple projects showing off my animation skills including illustration, graphic design, and more</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -77,7 +116,7 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <Row>
                           {
-                          projects.map((project, index) => {
+                          projectsFeatured.map((project, index) => {
                             return (
                             <ProjectCard key={index} {...project} />
                             )
@@ -86,6 +125,15 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
+                      <Row>
+                          {
+                          projectsBusiness.map((project, index) => {
+                            return (
+                            <ProjectCard key={index} {...project} />
+                            )
+                          })
+                          }
+                        </Row>
                         <p> whatever and ever</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">

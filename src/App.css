@@ -82,11 +82,20 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
-
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-  opacity: 2;
+#nav-dropdown {
+  font-weight: 400;
+  color: #ffff !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+  opacity: 0.75;
 }
+
+/* nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active,
+#nav-dropdown {
+  opacity: 2;
+} */
 
 span.navbar-text {
   display: flex;
@@ -335,14 +344,16 @@ color: #fff;
   padding: 80px 0px;
   margin-bottom: 100px;
 }
-.project h2 {
+.projects h2,
+.projectsAnimate h2 {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
 }
 
 
-.project p {
+.projects p,
+.projectsAnimate p {
   margin: 14px auto 30px auto;
 color: '';
 font-size: 18px;
@@ -352,7 +363,8 @@ letter-spacing: 0.8px;
 width: 56%;
 }
 
-.project .nav.nav-pills {
+.projects .nav.nav-pills,
+.projectsAnimate .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
   background-color: #E53894;
@@ -361,11 +373,13 @@ width: 56%;
   
 }
 
-.project .nav.nav-pills .nav-item {
+.projects .nav.nav-pills .nav-item,
+.projectsAnimate .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
 
-.project .nav.nav-pills .nav-link {
+.projects .nav.nav-pills .nav-link ,
+.projectsAnimate .nav.nav-pills .nav-link {
   color: #FFF4B2;
   background-color:#E53894 ;
   padding: 17px 0;
@@ -378,7 +392,8 @@ width: 56%;
   transition: .5s ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link::before {
+.projects .nav.nav-pills .nav-link::before,
+.projectsAnimate .nav.nav-pills .nav-link::before {
   content: "";
   width: 0;
   height: 100%;
@@ -390,11 +405,13 @@ width: 56%;
   transition: .5s  ease-in-out;
 }
 
-.project .nav.nav-pills .nav-link.active::before {
+.projects .nav.nav-pills .nav-link.active::before,
+.projectsAnimate .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
+.projects .nav.nav-pills .nav-link.active,
+.projectsAnimate .nav.nav-pills .nav-link.active {
   
   border: 2px solid #27CD77
 }
@@ -416,7 +433,10 @@ width: 56%;
 
 
 /* ////////////////////PROJECT CARD/////////////////// */
-
+.pjDiv {
+  align-items: center;
+  /* background-color: #FEE75B; */
+}
 
 .project-imgBox {
   
@@ -426,6 +446,7 @@ width: 56%;
   overflow: hidden;
   width: 80%;
   margin-bottom: 24px;
+  margin-left: 40px;
 }
 
 
@@ -477,9 +498,64 @@ width: 56%;
 }
 
 
+/* //////////Connection Form/////////// */
+.contact {
+  background: #FEE75B;
+  padding: 60px 0 200px 0;
+}
+
+.contact h2 {
+  font-size: 45px;
+font-weight: 700;
+margin-bottom: 30px;
+color: #191A1C
+}
+
+.contact form  input, .contact form textarea {
+  width: 100%;
+border-radius: 20px;
+border: 2px solid  #27CD77 ;
+margin: 0 0 8px 0;
+
+padding:18px 26px;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: .8px;
+transition: .3s ease-in-out;
+}
+
+.contact form input:focus, .contact form textarea:focus {
+  /* background:#FFF4B2 ; */
+  /* color:#FFF4B2 */
+}
+
+.contact form input::placeholder, .contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #191A1C
+}
+
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder{
+  opacity: .8;
+}
+
+.contact form button {
+  color:white;
+  background-color: #E53894;
+  font-weight: 700;
+  padding:14px  48px;
+  border-radius: 20px;
+  position: relative;
+}
+
+
+
+
 /* ////////FOOTER///////// */
 .footer {
   margin-top: 50px;
+  /* background-color: #27CD77; */
+  
 }
 /* custom css for application*/
 

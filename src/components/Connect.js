@@ -21,6 +21,25 @@ export const Connect = () => {
         })
     }
 
+    const handleSubmit = async (e) => {
+e.preventDefault();
+setButtonText("Sending...");
+let response = await fetch("https://localhost:5000/connect", {
+    method: "POST",
+    headers: {
+        "Content-Type":  "application/json;charset=utf-8"
+    },
+    body: JSON.stringify(formDetails),
+});
+setButtonText("Send");
+let result = await response.json();
+setFormDetails(formInitDetails);
+if (result.code == 200) {
+    setStatus({ success: true, message: "You're message has been sent!✨ We'll be in touch.✨"})
+} else {
+    setStatus({ success: false, message: 'An error had occurred, please try again. 🥹'})
+}
+    }
 
     return (
 <section className="contact" id='connect'>
@@ -31,7 +50,7 @@ export const Connect = () => {
             </Col>
             <Col md={6}>
                 <h2>Let's Connect</h2>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <Row>
                         <Col size={12} sm={6} className="px-1">
                             <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)}/>
