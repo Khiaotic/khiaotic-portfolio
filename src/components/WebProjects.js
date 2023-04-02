@@ -54,7 +54,7 @@ export const Projects = () => {
                 <div className="pjDiv"
                   
                 > 
-                  <h2>WebDev Projects</h2>
+                  <h2>Dev Projects</h2>
                   <p>description</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -86,10 +86,10 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p> whatever and ever</p>
+                        <p> nothing to see here</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p> whatever and ever</p>
+                        <p> nothing to see here</p>
                       </Tab.Pane>
                     </TabContent>
                   </Tab.Container>

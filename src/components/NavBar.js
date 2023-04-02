@@ -50,7 +50,7 @@ export const NavBar = () => {
             </NavDropdown>
 
             {/* <Nav.Link href="#portfolio" className={activeLink === 'portfolio' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('portfolio')}>Portfolio(s)</Nav.Link>     */}
-            <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('contact')}>Contact</Nav.Link>    
+            <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('connect')}>Contact</Nav.Link>    
             <Nav.Link href="#résumé" className={activeLink === 'résumé' ? 'active-Link' : 'navbar-link'} onClick={() =>onUpdateActionLink('résumé')}>Résumé</Nav.Link>    
           </Nav>
           <span className="navbar-text">

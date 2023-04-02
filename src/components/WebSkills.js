@@ -38,7 +38,7 @@ export const WebSkills = () =>{
             <h2>
                 Developer Skills
             </h2>
-            <p>description</p>
+            <p></p>
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>
                 <div>
                     <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
