@@ -1,23 +1,42 @@
 import {Container, Row, Col} from "react-bootstrap"
 import {ArrowRightCircle} from 'react-bootstrap-icons';
-// import { useState, useeEffect} from "react";
+import TrackVisibility from "react-on-screen";
+import { useState, useeEffect} from "react";
+
+
+
+
+
+
 //need to import header img//
 export const Hero = () => {
+
+    ////////////CONSTANTS//////////////////
+    const period = 2000;
+    const toRotate = [ "Animator", "Web Developer", "Graphic Designer" ]; 
+    const [text, setText] = useState('');
     return (
         <section className="hero" id='home'>
             <Container>
                 <Row className='align-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline"></span>
-                        <h1>{"Hej! Hej! I'm "}</h1>
-                        <h1>{"KHIAOTIC"}</h1>
-                        <span className="wrap">Animator and Web Developer</span>
-                        <p>about me about me about me about me</p>
+                        <TrackVisibility>
+                        {({isVisible}) => 
+                        <div className={isVisible ? "animate_animated animate_fadeIn" : ""}>
+                        <span className="tagline">Thanks for visiting my Portfolio</span>
+                        <h1>{"Hej! Hej! I'm KHIAOTIC "}
+                        <span className="text-rotation" dataPeriod="1000" data-rotate='["Animator", "Web Developer", "Graphic Designer"]'><span className="wrap">{text}</span></span>
+                        </h1>
+
+                        <span className="wrap">Animator and  Developer</span>
+                        <p>My current interest is creative-wear that combines graphic design and augmented reality. I enjoy skateboarding, running, and learning ASL.</p>
                         <button><ArrowRightCircle/></button>
+                        </div>}
+                        </TrackVisibility>
                         
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src={"./images/dummy_360x200_000000_defc83.svg"} alt="placeholder"/>
+                    <Col className="heroImg"xs={12} md={6} xl={5}>
+                        <img src={require("../images/khi.jpg")} alt="placeholder"/>
                     </Col>
                 </Row>
             </Container>

@@ -56,8 +56,8 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-media-icons">
                 <a href="#"><img src={''} alt="LinkedIn"  /></a>
-                <a href="#"><img src={''} alt="Github"  /></a>
-                <a href="#"><img src={''} alt="UpWork"  /></a>
+                <a href="https://github.com/Khiaotic"><img src={''} alt="Github"  /></a>
+                <a href="https://www.upwork.com/freelancers/~010b64163aca593c70"><img src={''} alt="UpWork"  /></a>
                 <a href="#"><img src={''} alt="Youtube"  /></a>
             </div>
             <button className="" onClick={() => console.log('connected link')}><span>Let's Connect</span></button>
