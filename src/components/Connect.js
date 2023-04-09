@@ -115,6 +115,7 @@ export const Connect = () => {
                         }
                     </Row>
                 </form>
+                <p>Check your DevTools to see if it sent....💀</p>
             </Col>
         </Row>
     </Container>

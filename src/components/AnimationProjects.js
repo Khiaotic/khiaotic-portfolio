@@ -1,11 +1,11 @@
 import { Container, Nav, Row, Col, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import days from "../images/endscreen.gif"
-import suburbs from "../images/Screenshot 2023-04-08 235045.jpg"
-import graphicDemo from "../images/graphicdesign_img.png";
-import OnlyDevs from "../images/dummy_360x200_000000_defc83.svg";
-import OnlyDev from "../images/dummy_360x260_000000_defc83.svg";
+import days from "../images/projects/endscreen.gif"
+import suburbs from "../images/projects/Screenshot 2023-04-08 235045.jpg"
+import graphicDemo from "../images/projects/graphicdesign_img.png";
+import OnlyDevs from "../images/projects/dummy_360x200_000000_defc83.svg";
+import OnlyDev from "../images/projects/dummy_360x260_000000_defc83.svg";
 
 export const AnimateProjects = () => {
   const projectsFeatured = [

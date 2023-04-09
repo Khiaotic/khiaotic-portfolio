@@ -41,39 +41,39 @@ export const WebSkills = () =>{
             <p></p>
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>
                 <div className="item">
-                    <img src={require('../images/html-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/html-skill.png')} alt="Image"></img>
                 <h5>HTML</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/javascript-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/javascript-skill.png')} alt="Image"></img>
                 <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/css-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/css-skill.png')} alt="Image"></img>
                 <h5>CSS</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/useState-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/useState-skill.png')} alt="Image"></img>
                 <h5>State</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/sql2.png')} alt="Image"></img>
+                    <img src={require('../images/skills/sql2.png')} alt="Image"></img>
                 <h5>MySql</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/mongodb-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/mongodb-skill.png')} alt="Image"></img>
                 <h5>MongoDB</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/api-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/api-skill.png')} alt="Image"></img>
                 <h5>API</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/node-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/node-skill.png')} alt="Image"></img>
                 <h5>Node.JS</h5>
                 </div>
                 <div className="item">
-                    <img src={require('../images/express-skill.png')} alt="Image"></img>
+                    <img src={require('../images/skills/express-skill.png')} alt="Image"></img>
                 <h5>Express.JS</h5>
                 </div>
             </Carousel>

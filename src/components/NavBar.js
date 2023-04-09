@@ -55,12 +55,12 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-media-icons">
-                <a href="#"><img src={require('../images/navbar/LI-In-Bug.png')} alt="LinkedIn"  /></a>
+                <a href="www.linkedin.com/in/khi-warner-846170107"><img src={require('../images/navbar/LI-In-Bug.png')} alt="LinkedIn"  /></a>
                 <a href="https://github.com/Khiaotic"><img src={require('../images/navbar/github-mark.png')} alt="Github"  /></a>
                 {/* <a href="https://www.upwork.com/freelancers/~010b64163aca593c70"><img src={require('../images/upwor_logo.png')} alt="UpWork"  /></a> */}
-                <a href="#"><img src={require('../images/navbar/Instagram_Glyph_White.png')} alt="Instagram"  /></a>
+                <a href="https://www.instagram.com/khiaotic"><img src={require('../images/navbar/insta_3.png')} alt="Instagram"  /></a>
                 {/* <a href="#"><img src={require('../images/navbar/insta_3.png')} alt="Instagram"  /></a> */}
-                <a href="#"><img src={require('../images/navbar/yt.png')} alt="Youtube"  /></a>
+                <a href="https://www.youtube.com/@khiaotic1657"><img src={require('../images/navbar/yt.png')} alt="Youtube"  /></a>
             </div>
             <button className="" onClick={() => console.log('connected link')}><span>Let's Connect</span></button>
           </span>

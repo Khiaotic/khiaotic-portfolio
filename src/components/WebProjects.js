@@ -1,9 +1,11 @@
 import { Container, Nav, Row, Col, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-
-import OnlyDevs from "../images/dummy_360x200_000000_defc83.svg";
-import OnlyDev from "../images/dummy_360x260_000000_defc83.svg";
+import pass from '../images/projects/passwordgene.jpg'
+import pawsafe from '../images/projects/pawsafe.jpg'
+import eCom from '../images/projects/221086264-5e071f3f-92f2-44ff-9968-7b5c212a9bba.jpg'
+import OnlyDevs from "../images/projects/dummy_360x200_000000_defc83.svg";
+import OnlyDev from "../images/projects/dummy_360x260_000000_defc83.svg";
 
 export const Projects = () => {
   const projects = [
@@ -16,14 +18,14 @@ export const Projects = () => {
     {
       title: "PawSafe",
       description: "pet medication scheduler ",
-      imgUrl: OnlyDevs,
+      imgUrl: pawsafe,
       link: "https://mrjakeschultz.github.io/project-mayhem/index.html"
       ,
     },
     {
       title: "E-Commerce BackEnd",
       description: "back end e-commerce site ",
-      imgUrl: OnlyDevs,
+      imgUrl: eCom,
       link: "https://github.com/Khiaotic/Khiaotic-E-commerce-Back-End"
       ,
     },
@@ -36,7 +38,8 @@ export const Projects = () => {
     {
       title: "Password Generator",
       description: "generates a random password ",
-      imgUrl: OnlyDevs,
+      imgUrl: pass,
+      link: 'https://github.com/Khiaotic/KHIs_Password_Generator'
     },
     {
       title: "Social Media Backend",
