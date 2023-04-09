@@ -29,7 +29,8 @@ export const Hero = () => {
                         </h1>
 
                         <span className="wrap">Animator and  Developer</span>
-                        <p>My current interest is creative-wear that combines graphic design and augmented reality. I enjoy skateboarding, running, and learning ASL.</p>
+                        <p> Experienced in conceptualizing campaigns, company branding, and website visualization(UI/UX), with a passion for creating engaging and innovative animation projects.
+</p>
                         <button><ArrowRightCircle/></button>
                         </div>}
                         </TrackVisibility>

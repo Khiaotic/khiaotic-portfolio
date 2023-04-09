@@ -40,40 +40,48 @@ export const AnimationSkills = () =>{
             </h2>
             <p></p>
             <Carousel responsive={responsive} infinite={true} className='skills-slider'>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/html-skill.png')} alt="Image"></img>
                 <h5>Photoshop</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/css-skill.png')} alt="Image"></img>
                 <h5>Illustrator</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/javascript-skill.png')} alt="Image"></img>
                 <h5>Blender</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/node-skill.png')} alt="Image"></img>
                 <h5>Animate</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/sql2.png')} alt="Image"></img>
+                <h5>Unity</h5>
+                </div>
+                <div className="item">
+                    <img src={require('../images/css-skill.png')} alt="Image"></img>
                 <h5>After Effects</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/useState-skill.png')} alt="Image"></img>
+                <h5>Maya</h5>
+                </div>
+                <div className="item">
+                    <img src={require('../images/javascript-skill.png')} alt="Image"></img>
                 <h5>Procreate</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/node-skill.png')} alt="Image"></img>
                 <h5>Nomad</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/sql2.png')} alt="Image"></img>
                 <h5>InDesign</h5>
                 </div>
-                <div>
-                    <img src={'http://via.placeholder.com/260x360'} alt="Image"></img>
+                <div className="item">
+                    <img src={require('../images/express-skill.png')} alt="Image"></img>
                 <h5>Premiere Pro</h5>
                 </div>
             </Carousel>

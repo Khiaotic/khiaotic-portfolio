@@ -7,28 +7,35 @@ import OnlyDev from "../images/dummy_360x260_000000_defc83.svg";
 
 export const Projects = () => {
   const projects = [
+    // {
+    //   title: "OnlyDevs",
+    //   description: " Devs  looking to collaborate!",
+    //   imgUrl: OnlyDevs,
+    //   link: "https://onlydevs.herokuapp.com/",
+    // },
     {
-      title: "OnlyDevs",
-      description: " Devs  looking to collaborate!",
+      title: "PawSafe",
+      description: "pet medication scheduler ",
       imgUrl: OnlyDevs,
-      link: "https://onlydevs.herokuapp.com/",
+      link: "https://mrjakeschultz.github.io/project-mayhem/index.html"
+      ,
     },
     {
       title: "E-Commerce BackEnd",
       description: "back end e-commerce site ",
       imgUrl: OnlyDevs,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
+      link: "https://github.com/Khiaotic/Khiaotic-E-commerce-Back-End"
       ,
     },
     {
       title: "Employee Profile Generator",
-      description: "a team job title/profile generator ",
+      description: "a job title/profile generator ",
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
     },
     {
       title: "Password Generator",
-      description: "generates a random passwords ",
+      description: "generates a random password ",
       imgUrl: OnlyDevs,
     },
     {
@@ -37,12 +44,12 @@ export const Projects = () => {
       imgUrl: OnlyDevs,
       link: "https://github.com/Khiaotic/KhiaoticSocialMedia",
     },
-    {
-      title: "Ranker",
-      description: " community rank VR games",
-      imgUrl: OnlyDevs,
-      link: "https://vrgranker.herokuapp.com/",
-    },
+    // {
+    //   title: "Ranker",
+    //   description: " community rank VR games",
+    //   imgUrl: OnlyDevs,
+    //   link: "https://vrgranker.herokuapp.com/",
+    // },
   ];
 
   return (

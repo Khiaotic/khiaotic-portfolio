@@ -1,7 +1,9 @@
 import { Container, Nav, Row, Col, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-
+import days from "../images/endscreen.gif"
+import suburbs from "../images/Screenshot 2023-04-08 235045.jpg"
+import graphicDemo from "../images/graphicdesign_img.png";
 import OnlyDevs from "../images/dummy_360x200_000000_defc83.svg";
 import OnlyDev from "../images/dummy_360x260_000000_defc83.svg";
 
@@ -10,14 +12,14 @@ export const AnimateProjects = () => {
     {
       title: "30 Days of Animation",
       description: " ",
-      imgUrl: OnlyDevs,
+      imgUrl: days,
       link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
       ,
     },
     {
       title: "Graphic Demo Real",
       description: "",
-      imgUrl: OnlyDevs,
+      imgUrl: graphicDemo,
       link: "https://youtu.be/NkAEZcminMk",
     },
     // {
@@ -49,7 +51,7 @@ export const AnimateProjects = () => {
     {
       title: "Suburbs",
       description: "Animated music video for The Last Skeptik",
-      imgUrl: OnlyDevs,
+      imgUrl: suburbs,
       link: "https://youtu.be/Uob4XmGYYoM",
     },
     

@@ -106,7 +106,7 @@ span.navbar-text {
   display: inline-block;
   margin-left: 14px;
 }
-.social-media-icons a {
+ .social-media-icons a {
   width: 42px;
   height: 42px;
   /* background: ; */
@@ -116,10 +116,10 @@ span.navbar-text {
   justify-content: center;
   margin-right: 6px;
   line-height: 1;
-  /*border: lighter blue 1px solid */
-}
+ 
+} 
 
-.social-media-icons a::before {
+ .social-media-icons a::before {
   content: "";
   width:42px;
   height: 42px;
@@ -135,15 +135,15 @@ span.navbar-text {
 }
 
 .social-media-icons a img {
-width:40%;
+width:70%;
 z-index: 1;
 transition: .5s ease-in-out;
 
 }  
 
-.social-media-icons a:hover img {
+/* .social-media-icons a:hover img {
 filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(25%)
-}
+}  */
 
 .navbar-text button {
   font-weight: 700;
@@ -153,6 +153,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   font-size: 18px;
   margin-left: 18px;
   position: relative;
+  border-radius: 30px;
   /* ///transparent? bg */
   background-color: #FEE75B;
   transition: .5s ease-in-out;
@@ -356,6 +357,21 @@ color: #fff;
   padding: 80px 0px;
   margin-bottom: 100px;
 }
+
+/* a {
+  color: #FFF4B2;
+  text-decoration: none !important;
+} */
+
+/* a, a:hover, a:focus, a:active {
+ all:unset
+} */
+/* a:hover, a:focus, a:active {
+  color: #FFF4B2;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: inherit;
+} */
 .projects h2,
 .projectsAnimate h2 {
   font-size: 45px;
