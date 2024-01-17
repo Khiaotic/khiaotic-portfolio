@@ -16,12 +16,12 @@ export const AnimateProjects = () => {
     //   link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
     //   ,
     // },
-    {
-      title: "Graphic Demo Real",
-      description: "",
-      imgUrl: graphicDemo,
-      link: "https://youtu.be/NkAEZcminMk",
-    },
+    // {
+    //   title: "Graphic Demo Real",
+    //   description: "",
+    //   imgUrl: graphicDemo,
+    //   link: "https://youtu.be/NkAEZcminMk",
+    // },
     // {
     //   title: "",
     //   description: " ",
