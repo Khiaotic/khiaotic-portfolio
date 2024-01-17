@@ -16,12 +16,12 @@ export const AnimateProjects = () => {
     //   link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
     //   ,
     // },
-    // {
-    //   title: "Graphic Demo Real",
-    //   description: "",
-    //   imgUrl: graphicDemo,
-    //   link: "https://youtu.be/NkAEZcminMk",
-    // },
+    {
+      title: "Graphic Demo Real",
+      description: "",
+      imgUrl: graphicDemo,
+      link: "https://youtu.be/NkAEZcminMk",
+    },
     // {
     //   title: "",
     //   description: " ",
@@ -120,7 +120,15 @@ export const AnimateProjects = () => {
                         
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p> nothing to see here</p>
+                       <Row>
+                          {
+                          projectsPersonal.map((project, index) => {
+                            return (
+                            <ProjectCard key={index} {...project} />
+                            )
+                          })
+                          }
+                        </Row>
                       </Tab.Pane>
                     </TabContent>
                   </Tab.Container>
