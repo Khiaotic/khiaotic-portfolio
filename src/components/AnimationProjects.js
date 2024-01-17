@@ -9,13 +9,13 @@ import OnlyDev from "../images/projects/dummy_360x260_000000_defc83.svg";
 
 export const AnimateProjects = () => {
   const projectsFeatured = [
-    {
-      title: "30 Days of Animation",
-      description: " ",
-      imgUrl: days,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
-      ,
-    },
+    // {
+    //   title: "30 Days of Animation",
+    //   description: " ",
+    //   imgUrl: days,
+    //   link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
+    //   ,
+    // },
     {
       title: "Graphic Demo Real",
       description: "",
@@ -55,8 +55,15 @@ export const AnimateProjects = () => {
       link: "https://youtu.be/Uob4XmGYYoM",
     },
     
- 
-   
+ ////////////////////////////////////
+
+    const projectsPersonal = [
+  {
+      title: "30 Days of Animation",
+      description: " ",
+      imgUrl: days,
+      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
+    },
    
   ];
 
