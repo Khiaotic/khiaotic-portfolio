@@ -27,8 +27,8 @@ export const Hero = () => {
                         <h1>{"Hej! Hej! I'm KHIAOTIC "}
                         <span className="text-rotation" dataPeriod="1000" data-rotate='["Animator", "Web Developer", "Graphic Designer"]'><span className="wrap">{text}</span></span>
                         </h1>
-
-                        <span className="wrap">Animator and  Developer</span>
+ 
+                        <span className="wrap">Graphic Designer and  Developer</span>
                         <p> Experienced in conceptualizing campaigns, company branding, and website visualization(UI/UX), with a passion for creating engaging and innovative animation projects.
 </p>
                         <button><ArrowRightCircle/></button>
@@ -37,7 +37,7 @@ export const Hero = () => {
                         
                     </Col>
                     <Col className="heroImg"xs={12} md={6} xl={5}>
-                        <img src={require("../images/khi.jpg")} alt="placeholder"/>
+                        <img src={require("../images/projects/resumeicon.png")} alt="placeholder"/>
                     </Col>
                 </Row>
             </Container>
