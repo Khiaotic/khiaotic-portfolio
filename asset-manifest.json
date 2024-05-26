@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/khiaotic-portfolio/static/css/main.962f47af.css",
-    "main.js": "/khiaotic-portfolio/static/js/main.39c416d4.js",
+    "main.js": "/khiaotic-portfolio/static/js/main.ffa4237d.js",
     "static/js/787.fd076720.chunk.js": "/khiaotic-portfolio/static/js/787.fd076720.chunk.js",
     "static/media/resumeicon.png": "/khiaotic-portfolio/static/media/resumeicon.5638c0cea2ed1e541836.png",
     "static/media/NotoSans-SemiBold.ttf": "/khiaotic-portfolio/static/media/NotoSans-SemiBold.99df72e26c72877cb1f9.ttf",
@@ -33,11 +33,11 @@
     "static/media/dummy_360x200_000000_defc83.svg": "/khiaotic-portfolio/static/media/dummy_360x200_000000_defc83.7b9bcfd1a6b947c2bd43816e6c02c3da.svg",
     "static/media/dummy_360x260_000000_defc83.svg": "/khiaotic-portfolio/static/media/dummy_360x260_000000_defc83.b68366bce02f381f1a6ed5e1a9be052f.svg",
     "main.962f47af.css.map": "/khiaotic-portfolio/static/css/main.962f47af.css.map",
-    "main.39c416d4.js.map": "/khiaotic-portfolio/static/js/main.39c416d4.js.map",
+    "main.ffa4237d.js.map": "/khiaotic-portfolio/static/js/main.ffa4237d.js.map",
     "787.fd076720.chunk.js.map": "/khiaotic-portfolio/static/js/787.fd076720.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.962f47af.css",
-    "static/js/main.39c416d4.js"
+    "static/js/main.ffa4237d.js"
   ]
 }
