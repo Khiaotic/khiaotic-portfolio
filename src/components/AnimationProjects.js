@@ -1,7 +1,9 @@
 import { Container, Nav, Row, Col, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
+import samplesPDf from "../images/projects/screen.jpg"
 import days from "../images/projects/endscreen.gif"
+import stool from "../images/projects/stool.jpg"
 import suburbs from "../images/projects/Screenshot 2023-04-08 235045.jpg"
 import graphicDemo from "../images/projects/graphicdesign_img.png";
 import OnlyDevs from "../images/projects/dummy_360x200_000000_defc83.svg";
@@ -9,12 +11,12 @@ import OnlyDev from "../images/projects/dummy_360x260_000000_defc83.svg";
 
 export const AnimateProjects = () => {
   const projectsFeatured = [
+   
     {
-      title: "30 Days of Animation",
+      title: "Samples PDF",
       description: " ",
-      imgUrl: days,
-      link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator"
-      ,
+      imgUrl: samplesPDf,
+      link: "https://docs.google.com/presentation/d/11bPqLLIXCmxNXQ-yjY53cIK4wI1Q4bNYTWVS4cUVcmQ/edit?usp=sharing",
     },
     {
       title: "Graphic Demo Real",
@@ -22,12 +24,6 @@ export const AnimateProjects = () => {
       imgUrl: graphicDemo,
       link: "https://youtu.be/NkAEZcminMk",
     },
-    // {
-    //   title: "",
-    //   description: " ",
-    //   imgUrl: OnlyDevs,
-    //   link: "",
-    // },
     // {
     //   title: "",
     //   description: " ",
@@ -55,10 +51,25 @@ export const AnimateProjects = () => {
       link: "https://youtu.be/Uob4XmGYYoM",
     },
     
- 
-   
+ ////////////////////////////////////
+
    
   ];
+
+  const projectsPersonal = [
+    {
+        title: "Midnight Gospel Stool",
+        description: "Hand-painted stool ",
+        imgUrl: stool,
+        link: "https://youtu.be/j671ucU-sKM?si=ZiJBxeVb1l1N0Wm9",
+      },
+    {
+        title: "30 Days of Animation",
+        description: " ",
+        imgUrl: days,
+        link: "https://github.com/Khiaotic/AKhiaoticTeamProfileGenerator",
+      },
+    ];
 
   return (
     <section className="projectsAnimate" id="projectsAnimate">
@@ -113,7 +124,15 @@ export const AnimateProjects = () => {
                         
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p> nothing to see here</p>
+                       <Row>
+                          {
+                          projectsPersonal.map((project, index) => {
+                            return (
+                            <ProjectCard key={index} {...project} />
+                            )
+                          })
+                          }
+                        </Row>
                       </Tab.Pane>
                     </TabContent>
                   </Tab.Container>
