@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/khiaotic-portfolio/static/css/main.5bfc4f11.css",
-    "main.js": "/khiaotic-portfolio/static/js/main.145c8050.js",
+    "main.css": "/khiaotic-portfolio/static/css/main.962f47af.css",
+    "main.js": "/khiaotic-portfolio/static/js/main.39c416d4.js",
     "static/js/787.fd076720.chunk.js": "/khiaotic-portfolio/static/js/787.fd076720.chunk.js",
+    "static/media/resumeicon.png": "/khiaotic-portfolio/static/media/resumeicon.5638c0cea2ed1e541836.png",
     "static/media/NotoSans-SemiBold.ttf": "/khiaotic-portfolio/static/media/NotoSans-SemiBold.99df72e26c72877cb1f9.ttf",
     "static/media/NotoSans-Regular.ttf": "/khiaotic-portfolio/static/media/NotoSans-Regular.eae34fa8f1e0c4c6d797.ttf",
     "static/media/css-skill.png": "/khiaotic-portfolio/static/media/css-skill.5e1ecaded5c9e01071f3.png",
@@ -19,7 +20,8 @@
     "static/media/insta_3.png": "/khiaotic-portfolio/static/media/insta_3.2481277bd08d43e158c8.png",
     "static/media/endscreen.gif": "/khiaotic-portfolio/static/media/endscreen.0dd2fb32aee5f46290d5.gif",
     "static/media/graphicdesign_img.png": "/khiaotic-portfolio/static/media/graphicdesign_img.41022a00f7665e494b47.png",
-    "static/media/khi.jpg": "/khiaotic-portfolio/static/media/khi.08ea306aea6f80e4618b.jpg",
+    "static/media/buisness.png": "/khiaotic-portfolio/static/media/buisness.ed7a2149cf94513d8ee8.png",
+    "static/media/stool.jpg": "/khiaotic-portfolio/static/media/stool.4417c4a66c0dc3cf8e5c.jpg",
     "static/media/pawsafe.jpg": "/khiaotic-portfolio/static/media/pawsafe.c6070d58b0c3958b2cb4.jpg",
     "static/media/revicons.eot": "/khiaotic-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/khiaotic-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -30,12 +32,12 @@
     "index.html": "/khiaotic-portfolio/index.html",
     "static/media/dummy_360x200_000000_defc83.svg": "/khiaotic-portfolio/static/media/dummy_360x200_000000_defc83.7b9bcfd1a6b947c2bd43816e6c02c3da.svg",
     "static/media/dummy_360x260_000000_defc83.svg": "/khiaotic-portfolio/static/media/dummy_360x260_000000_defc83.b68366bce02f381f1a6ed5e1a9be052f.svg",
-    "main.5bfc4f11.css.map": "/khiaotic-portfolio/static/css/main.5bfc4f11.css.map",
-    "main.145c8050.js.map": "/khiaotic-portfolio/static/js/main.145c8050.js.map",
+    "main.962f47af.css.map": "/khiaotic-portfolio/static/css/main.962f47af.css.map",
+    "main.39c416d4.js.map": "/khiaotic-portfolio/static/js/main.39c416d4.js.map",
     "787.fd076720.chunk.js.map": "/khiaotic-portfolio/static/js/787.fd076720.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bfc4f11.css",
-    "static/js/main.145c8050.js"
+    "static/css/main.962f47af.css",
+    "static/js/main.39c416d4.js"
   ]
 }
