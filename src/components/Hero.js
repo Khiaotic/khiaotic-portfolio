@@ -1,7 +1,7 @@
 import {Container, Row, Col} from "react-bootstrap"
 import {ArrowRightCircle} from 'react-bootstrap-icons';
 import TrackVisibility from "react-on-screen";
-import { useState, useeEffect} from "react";
+import { useState, useEffect} from "react";
 
 
 
