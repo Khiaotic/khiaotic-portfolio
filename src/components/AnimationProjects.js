@@ -1,7 +1,7 @@
 import { Container, Nav, Row, Col, Tab, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 
-import samplesPDf from "../images/projects/screen.jpg"
+import samplesPDf from "../images/projects/buisness.png"
 import days from "../images/projects/endscreen.gif"
 import stool from "../images/projects/stool.jpg"
 import suburbs from "../images/projects/Screenshot 2023-04-08 235045.jpg"
@@ -15,8 +15,9 @@ export const AnimateProjects = () => {
     {
       title: "Samples PDF",
       description: " ",
+      
       imgUrl: samplesPDf,
-      link: "https://docs.google.com/presentation/d/11bPqLLIXCmxNXQ-yjY53cIK4wI1Q4bNYTWVS4cUVcmQ/edit?usp=sharing",
+      link: "https://docs.google.com/presentation/d/1aLO9tk0kZwjgXMo6XTLo84bUBZfdHwx3P7hDJDKQP8U/edit?usp=sharing",
     },
     {
       title: "Graphic Demo Real",
@@ -80,7 +81,7 @@ export const AnimateProjects = () => {
                 <div className="pjDiv"
                   
                 > 
-                  <h2>Animation Projects</h2>
+                  <h2>Graphic Design Projects</h2>
                   <p>multiple projects showing off my animation skills including illustration, 3D modeling, graphic design, and more</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav

@@ -11,7 +11,7 @@ export const Footer = () => {
                     <a href=""><img> src={''}</img></a>
                 </div> */}
                 <p>the website is currently still under construction...</p>
-                <p>©2023 Khiaotic | Privacy Policy</p>
+                <p>©2024 Khiaotic | Privacy Policy</p>
                 </Col>
             </Container>
         </footer>

@@ -29,7 +29,7 @@ export const Hero = () => {
                         </h1>
  
                         <span className="wrap">Graphic Designer and  Developer</span>
-                        <p> Experienced in conceptualizing campaigns, company branding, and website visualization(UI/UX), with a passion for creating engaging and innovative animation projects.
+                        <p> Experienced in conceptualizing campaigns, company branding, and website visualization(UI/UX), with a passion for creating engaging and innovative graphic and animation projects.
 </p>
                          {/* <button><ArrowRightCircle/></button> */}
                         </div>}
